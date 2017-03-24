@@ -37,7 +37,7 @@ public class Main {
         // NEVER FORGET TO CLOSE THE ENTITY_MANAGER_FACTORY
         ENTITY_MANAGER_FACTORY.close();
     }
-
+//mq434m3rf2oi3hfo2iq3hgfh3ofh
 
     public static void create(int id, String name, String code) {
         // Create an EntityManager
