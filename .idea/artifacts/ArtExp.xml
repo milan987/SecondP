@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ArtExp">
+    <output-path>$PROJECT_DIR$/target/artifacts/ArtExp</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SecondP" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
