@@ -26,6 +26,7 @@ public class Main {
         delete(1);
 
         // Print all the Students
+        //test
         List<Stock> students = readAll();
         if (students != null) {
             for (Stock stu : students) {
