@@ -38,6 +38,12 @@
       <artifactId>camel-spring</artifactId>
     </dependency>
 
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+    </dependency>
+
     <!-- logging -->
     <dependency>
       <groupId>org.apache.logging.log4j</groupId>
@@ -72,6 +78,27 @@
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
       <version>6.0.4</version>
+    </dependency>
+
+
+    <dependency>
+
+      <groupId>org.hibernate</groupId>
+
+      <artifactId>hibernate-entitymanager</artifactId>
+
+      <version>5.2.9.Final</version>
+
+    </dependency>
+
+    <dependency>
+
+      <groupId>org.hibernate</groupId>
+
+      <artifactId>hibernate-testing</artifactId>
+
+      <version>5.2.9.Final</version>
+
     </dependency>
 
   </dependencies>

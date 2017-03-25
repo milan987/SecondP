@@ -45,4 +45,9 @@ public class Stock implements Serializable {
     public void setStock_name(String stock_name) {
         this.stock_name = stock_name;
     }
+
+    @Override
+    public String toString() {
+        return this.stock_id + " " + this.stock_name + " " + this.stock_code;
+    }
 }
